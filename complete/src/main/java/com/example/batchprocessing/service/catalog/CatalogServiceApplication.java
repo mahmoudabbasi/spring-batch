@@ -1,12 +1,12 @@
-package com.example.batchprocessing;
+package com.example.batchprocessing.service.catalog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BatchProcessingApplication {
+public class CatalogServiceApplication {
 
 	public static void main(String[] args) {
-		System.exit(SpringApplication.exit(SpringApplication.run(BatchProcessingApplication.class, args)));
+		SpringApplication.run(CatalogServiceApplication.class, args);
 	}
 }
